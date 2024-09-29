@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: #008080; */
+    background-color: #17202a;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    margin-top: 2rem;
+    justify-content:center;
+    gap: 4rem;
+
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 5rem;
+    align-items: center;
+    
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:chocolate
+}
+
+.header div{
+    margin-top: 0.5rem;
+}
+
+
+.desc{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+svg{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.social{
+    
+    display: flex;
+    gap:2rem;
+    padding: 2rem;
+
+}
+
+img{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 15rem;
+    border: 0.1rem solid black;
+}
+
+.name{
+    margin-top: 0.5rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.skills svg{
+    margin-top: 3rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.skills{
+    margin-top: 2rem;
+}
+
+.projects ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+p{
+    margin-top: 1.5rem;
+}
+
+.projects{
+    margin-top: 2rem;
+}
+
+.about{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.center h3{
+    color: chocolate;
+    text-decoration:underline
+}
+
+ul a{
+    color:darkgoldenrod;
+    /* text-decoration:underline */
+}
+
+
